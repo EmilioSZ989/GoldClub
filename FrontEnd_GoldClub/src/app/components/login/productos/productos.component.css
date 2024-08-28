@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   height: 100vh; /* Ocupa toda la altura de la ventana */
-  background-image: url('../productos/img/fondo\ \(1\).png'); /* Asegúrate de que la ruta de la imagen sea correcta */
 }
 
 .product-title {

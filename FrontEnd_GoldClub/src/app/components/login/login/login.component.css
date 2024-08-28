@@ -1,73 +1,46 @@
 .login-container {
+  background-color: #009688; /* Color de fondo verde */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-image: url('../login/img/fondo\ \(1\).png'); /* Asegúrate de que la ruta de la imagen sea correcta */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .login-form {
+  background-color: white;
   padding: 20px;
-  max-width: 400px;
-  width: 100%;
-  text-align: center;
-  background-color: transparent;
-  margin-top: -40px; /* Ajusta este valor para subir el título hacia la parte superior */
-  
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 400px; /* Limitar el ancho máximo del formulario */
+  width: 100%; /* Asegura que el formulario use el 100% del ancho disponible */
 }
 
 .login-title {
-  font-size: 60px;
-  font-family: 'Love Ya Like A Sister', cursive;
-  color: #000;
-  margin-bottom: 40px;
-  margin: 0; /* Elimina márgenes que puedan afectar la posición */
-
-
-
-}
-  .login-title span {
-    display: block;
-    font-size: 120px; /* Ajusta el tamaño según lo necesites */
-
-}
-.login-input {
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 36px;
+  font-weight: bold;
   text-align: center;
-  background-color: #fff;
-  color: #000;
-  width: calc(70% - 22px); /* Ajusta el ancho de los campos de entrada */
-  padding: 15px; /* Ajusta el padding interno del campo */
-  text-align: left; /* Alinea el texto a la izquierda */
-  font-family: 'Love Ya Like A Sister', cursive; /* Aplica la misma fuente que el título */
+  margin-bottom: 20px;
+}
 
+.login-input {
+  width: calc(100% - 22px); /* Ajusta el ancho para que se ajuste con el padding */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .login-button {
-  background-color: #808080;
+  background-color: #009688;
   color: white;
-  padding: 15px 30px;
+  padding: 10px 20px;
   border: none;
-  border-radius: 25px;
+  border-radius: 5px;
   cursor: pointer;
-  margin: 10px 5px;
-  font-size: 18px;
-  font-family: 'Love Ya Like A Sister', cursive; /* Aplica la misma fuente que el título */
-  margin-top: 50px; /* Ajusta este valor para separar los botones de los campos de ingreso */
-  margin-right: 75px; /* Separación entre los botones */
-  padding: 15px 50px; /* Aumenta el padding para hacer los botones más largos */
+  margin: 5px 0; /* Espaciado entre botones */
 }
 
 .login-button:hover {
-  background-color: #696969;
-}
-.login-button:last-child {
-  margin-right: 0; /* Elimina el margen derecho del último botón */
+  background-color: #00796b;
 }
